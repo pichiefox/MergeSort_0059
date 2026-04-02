@@ -85,3 +85,13 @@ void mergeSort(int low, int high)
         arr[x] = B[x];
     }
 }
+
+void output()
+{
+    cout<<"\nDaya setelah diurutkan (Merge Sort): ";
+    for(int i = 0; i < n; i++)
+    {
+        cout<<arr[i]<< " ";
+    }
+    cout<<endl;
+}

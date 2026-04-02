@@ -95,3 +95,10 @@ void output()
     }
     cout<<endl;
 }
+
+int main()
+{
+    input();
+    mergeSort(0, n - 1);
+    output();
+}
